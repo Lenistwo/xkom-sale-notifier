@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+<head>
+    <title>Sale Alert!</title>
+    <style type="text/css">
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+<div>
+    Your watched product is on sale
+</div>
+<table>
+    <tr>
+        <th>Product</th>
+        <th>Time Left</th>
+        <th>Price</th>
+    </tr>
+    <tr>
+        <td>{{.Name}}</td>
+        <td>{{.Time}}</td>
+        <td>{{.Price}}</td>
+    </tr>
+</table>
+</body>
+</html>
